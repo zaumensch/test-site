@@ -1,0 +1,178 @@
+html, * { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1{	
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.section {
+	display: block;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	
+  	padding: 5px; 
+  	width: 100%;
+	font-size: 10px;
+}
+
+.banner { 
+	height: 315px;
+	background: url("../images/background.png") no-repeat;
+	background-size: cover;
+	color: white;
+	align-items: center;
+	
+}
+
+.container h1 { 
+    margin-bottom: 10px;
+}
+
+.container-select {
+    position: relative;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    width: 310px;
+}
+
+.container-select select {
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+}
+
+.container-select select option {
+    color:#000;
+}
+
+.container-select:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 15px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+	pointer-events: none;
+}
+
+.addresses { 
+    color: black;
+    margin-bottom: 30px;
+}   
+
+.addresses h2 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 200;
+    line-height: 1.1;
+}
+
+.addresses h3 {
+    color: #ff0000;
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.addresses p { 
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.addresses .google-maps {
+    background: #ccc;
+}
+
+.services {
+    background: #72217b;
+    padding: 30px 0 50px;
+    color: white;
+}
+
+.services > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    font-weight: 200;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.services h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.services p.question {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.contact-us {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.logo { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 29%;
+}
+
+.logo img {
+    width: 190px;
+}
+
+.contact-us .social-networks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us h5 {
+    text-align: center;
+}
+
+.social-networks a { 
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}

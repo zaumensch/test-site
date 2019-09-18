@@ -1,0 +1,35 @@
+.container-select {
+    position: relative;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    width: 310px;
+}
+
+.container-select select {
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+}
+
+.container-select select option {
+    color:#000;
+}
+
+.container-select:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 15px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+	pointer-events: none;
+}

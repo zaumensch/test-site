@@ -1,0 +1,101 @@
+.addresses { 
+    color: black;
+    margin-bottom: 30px;
+}   
+
+.addresses h2 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 200;
+    line-height: 1.1;
+}
+
+.addresses h3 {
+    color: #ff0000;
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.addresses p { 
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.addresses .google-maps {
+    background: #ccc;
+}
+
+.services {
+    background: #72217b;
+    padding: 30px 0 50px;
+    color: white;
+}
+
+.services > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+    font-weight: 200;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.services h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.services p.question {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.contact-us {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.logo { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 29%;
+}
+
+.logo img {
+    width: 190px;
+}
+
+.contact-us .social-networks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-us h5 {
+    text-align: center;
+}
+
+.social-networks a { 
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
